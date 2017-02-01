@@ -1809,7 +1809,7 @@
 	}
 
 		a:hover {
-			color: rgba(153, 153, 153, 0.5); /* link color (footer) */
+			color: rgba(153, 153, 153, 0.5); /*niktre: link color (footer) */
 		}
 
 	strong, b {
@@ -2896,7 +2896,7 @@
 
 		.wrapper.style1 {
 			background-color: #fafafa;
-			color: #999999; /* niktre: text color on lightlightgrey background*/
+			color: #797979; /* niktre: text color on lightlightgrey background*/
 		}
 
 			.wrapper.style1 input, .wrapper.style1 select, .wrapper.style1 textarea {
@@ -3079,7 +3079,7 @@
 			}
 
 			.wrapper.style1 header p {
-				color: #bfbfbf;
+				color: #797979;
 			}
 
 			.wrapper.style1 table tbody tr {
@@ -3108,7 +3108,7 @@
 
 		.wrapper.style2 {
 			background-color: #3498db;
-			color: #aed6f1; /* niktre: text color on blue background*/
+			color: #CDE4F3; /* niktre: text color on blue background*/
 		}
 
 			.wrapper.style2 input, .wrapper.style2 select, .wrapper.style2 textarea {
@@ -3116,11 +3116,11 @@
 			}
 
 			.wrapper.style2 a {
-				color: #999999; /* niktre: link color on blue background*/
+				color: #E0E9EF; /* niktre: link color on blue background*/
 			}
 
 				.wrapper.style2 a:hover {
-					color: rgba(153, 153, 153, 0.5); /*niktre: highlight link */
+					color: rgba(186, 186, 186, 0.9); /*niktre: highlight link */
 				}
 
 			.wrapper.style2 strong, .wrapper.style2 b {
