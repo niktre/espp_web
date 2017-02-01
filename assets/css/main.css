@@ -1809,7 +1809,7 @@
 	}
 
 		a:hover {
-			color: rgba(153, 153, 153, 0.5);
+			color: rgba(153, 153, 153, 0.5); /* link color (footer) */
 		}
 
 	strong, b {
@@ -1877,7 +1877,7 @@
 		border: 0;
 		cursor: pointer;
 		display: inline-block;
-		font-weight: 700;
+		font-weight: 300;
 		height: 2.85em;
 		line-height: 2.95em;
 		padding: 0 1.5em;
@@ -1971,7 +1971,7 @@
 		input[type="button"]:hover,
 		button:hover,
 		.button:hover {
-			background-color: #4aa3df;
+			background-color: #4aa3df; /* niktre:button bg when active */
 		}
 
 		input[type="submit"]:active,
@@ -2896,7 +2896,7 @@
 
 		.wrapper.style1 {
 			background-color: #fafafa;
-			color: #999999;
+			color: #999999; /* niktre: text color on lightlightgrey background*/
 		}
 
 			.wrapper.style1 input, .wrapper.style1 select, .wrapper.style1 textarea {
@@ -3108,7 +3108,7 @@
 
 		.wrapper.style2 {
 			background-color: #3498db;
-			color: #aed6f1;
+			color: #aed6f1; /* niktre: text color on blue background*/
 		}
 
 			.wrapper.style2 input, .wrapper.style2 select, .wrapper.style2 textarea {
@@ -3116,19 +3116,19 @@
 			}
 
 			.wrapper.style2 a {
-				color: #999999;
+				color: #999999; /* niktre: link color on blue background*/
 			}
 
 				.wrapper.style2 a:hover {
-					color: rgba(153, 153, 153, 0.5);
+					color: rgba(153, 153, 153, 0.5); /*niktre: highlight link */
 				}
 
 			.wrapper.style2 strong, .wrapper.style2 b {
-				color: #fff;
+				color: #fff; /*niktre: bold*/
 			}
 
 			.wrapper.style2 h1, .wrapper.style2 h2, .wrapper.style2 h3, .wrapper.style2 h4, .wrapper.style2 h5, .wrapper.style2 h6 {
-				color: #fff;
+				color: #fff; /*niktre: header*/
 			}
 
 			.wrapper.style2 blockquote {
@@ -3787,6 +3787,7 @@
 			-webkit-transition: opacity 3s ease;
 			-ms-transition: opacity 3s ease;
 			transition: opacity 3s ease;
+
 			-moz-transition-delay: 1.25s;
 			-webkit-transition-delay: 1.25s;
 			-ms-transition-delay: 1.25s;
@@ -3874,7 +3875,7 @@
 		}
 
 		#footer .copyright {
-			color: #bfbfbf;
+			color: #bfbfbf; /*niktre: footer text*/
 			font-size: 0.9em;
 			margin: 0 0 2em 0;
 			padding: 0;
