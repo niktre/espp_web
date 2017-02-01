@@ -3788,10 +3788,10 @@
 			-ms-transition: opacity 3s ease;
 			transition: opacity 3s ease;
 
-			-moz-transition-delay: 1.25s;
-			-webkit-transition-delay: 1.25s;
-			-ms-transition-delay: 1.25s;
-			transition-delay: 1.25s;
+			-moz-transition-delay: 1.0s;
+			-webkit-transition-delay: 1.0s;
+			-ms-transition-delay: 1.0s;
+			transition-delay: 1.0s;
 			content: '';
 			display: block;
 			background-color: #000;
